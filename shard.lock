@@ -1,0 +1,62 @@
+version: 1.0
+shards:
+  admiral:
+    github: jwaldrip/admiral.cr
+    commit: c3c3467953654554b72c24e7b853d6fbb23f10c0
+
+  clear:
+    github: anykeyh/clear
+    commit: 082e924954837b930e12cba44d169438c9561f8f
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.9.0
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.7.0
+
+  generate:
+    github: anykeyh/generate.cr
+    commit: 27a59d663ded8ce39a361e3a88b8dd747f59ce42
+
+  http_proxy:
+    github: mamantoha/http_proxy
+    commit: 1fb7bc325e479f3c0d6411b6973f4b69a0d66580
+
+  i18n:
+    github: TechMagister/i18n.cr
+    commit: 7e8168f2a0d567d3722a70b3a3a1028930e1c47e
+
+  inflector:
+    github: phoffer/inflector.cr
+    version: 0.1.8
+
+  micrate:
+    github: amberframework/micrate
+    version: 0.8.0
+
+  mosquito:
+    github: robacarp/mosquito
+    commit: b38a224fd9c16a11e5f0d7923b8ce950317a2292
+
+  pg:
+    github: will/crystal-pg
+    version: 0.21.0
+
+  pool:
+    github: watzon/pool
+    commit: d2d11eb565a7cf0c64c0e4a123890078ce9ae34f
+
+  redis:
+    github: stefanwille/crystal-redis
+    version: 2.6.0
+
+  sentry:
+    github: samueleaton/sentry
+    commit: ea453440a159219e894d6af42cf817e34647eb8d
+
+  tourmaline:
+    github: protoncr/tourmaline
+    commit: 5dad0767676a9e84a9d54b06928bebf06edab603
+

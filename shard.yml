@@ -1,0 +1,46 @@
+name: tourmaline_boilerplate
+version: 0.1.0
+
+authors:
+  - Chris Watson <cawatson1993@gmail.com>
+
+targets:
+  bot:
+    main: src/bot.cr
+
+dependencies:
+  tourmaline:
+    github: protoncr/tourmaline
+    branch: master
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.7.0
+
+  # Database support
+  pg:
+    github: will/crystal-pg
+  clear:
+    github: anykeyh/clear
+    branch: v0.9
+  micrate:
+    github: amberframework/micrate
+    version: 0.8.0
+  
+  # Jobs support
+  mosquito:
+    github: robacarp/mosquito
+    branch: master
+
+  # Internationalization support
+  i18n:
+    github: TechMagister/i18n.cr
+    branch: master
+
+development_dependencies:
+  sentry:
+    github: samueleaton/sentry
+    branch: master
+
+crystal: 0.34.0
+
+license: MIT

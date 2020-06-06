@@ -1,0 +1,37 @@
+version: "3.4"
+
+services:
+  bot:
+    build: .
+    restart: always
+    env_file: .env
+    environment:
+      - "REDIS_URL=redis://redis_db"
+      - "DATABASE_URI=postgres://postgres:postgres@postgres_db"
+    networks:
+      - overlay
+    depends_on:
+      - redis_db
+      - postgres_db
+
+  redis_db:
+    image: redis:6.0.4
+    networks:
+      - overlay
+
+  postgres_db:
+    image: postgres:12.3
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=postgres"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - overlay
+
+
+volumes:
+  db-data:
+
+network:
+  overlay:

@@ -1,0 +1,6 @@
+messages:
+  start_message: >-
+    Welcome to your new bot!
+
+    You can change this text by editing `src/bot/locales/messages/en.yml` or by editing the
+    command file itself at `src/bot/commands/start.cr`!
