@@ -3,7 +3,7 @@
 This is a boilerplate Telegram bot for the [Tourmaline](https://tourmaline.dev) Telegram bot framework.
 
 **Features:**
-- Internationalization support using [TechMagister/i18n](https://github.com/anykeyh/clear)
+- Internationalization support using [TechMagister/i18n](https://github.com/TechMagister/i18n)
 - Background job processing using [robacarp/mosquito](https://github.com/robacarp/mosquito)
 - Database support using PostgreSQL, [amberframework/micrate](https://github.com/amberframework/micrate), and [anykeyh/clear](https://github.com/anykeyh/clear)
 - Automatic restarts during development using [samueleaton/sentry](https://github.com/samueleaton/sentry)
