@@ -8,7 +8,7 @@ require "./bot/**"
 
 class TelegramBot < Tourmaline::Client
   @[On(:update, group: :user_persistence)]
-  def persist_users(client, update)
+  def persist_users(update)
     Helpers.persist_users(update.users)
     Helpers.persist_chats(update.chats)
     Helpers.persist_chat_members(update)

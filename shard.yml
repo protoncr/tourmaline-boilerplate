@@ -11,7 +11,7 @@ targets:
 dependencies:
   tourmaline:
     github: protoncr/tourmaline
-    branch: master
+    commit: db1fd50
   dotenv:
     github: gdotdesign/cr-dotenv
     version: 0.7.0
