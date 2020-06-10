@@ -11,7 +11,7 @@ targets:
 dependencies:
   tourmaline:
     github: protoncr/tourmaline
-    commit: db1fd50
+    commit: 287f4d2
   dotenv:
     github: gdotdesign/cr-dotenv
     version: 0.7.0
@@ -19,8 +19,9 @@ dependencies:
   # Database support
   pg:
     github: will/crystal-pg
+    branch: master
   clear:
-    github: anykeyh/clear
+    github: watzon/clear
     branch: v0.9
   micrate:
     github: amberframework/micrate
@@ -38,7 +39,7 @@ dependencies:
 
 development_dependencies:
   sentry:
-    github: samueleaton/sentry
+    github: watzon/sentry
     branch: master
 
 crystal: 0.34.0

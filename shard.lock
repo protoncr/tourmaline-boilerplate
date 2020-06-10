@@ -1,62 +1,62 @@
-version: 1.0
+version: 2.0
 shards:
   admiral:
-    github: jwaldrip/admiral.cr
-    commit: c3c3467953654554b72c24e7b853d6fbb23f10c0
+    git: https://github.com/jwaldrip/admiral.cr.git
+    version: 1.11.2+git.commit.c3c3467953654554b72c24e7b853d6fbb23f10c0
 
   clear:
-    github: anykeyh/clear
-    commit: 082e924954837b930e12cba44d169438c9561f8f
+    git: https://github.com/watzon/clear.git
+    version: 0.9+git.commit.33b2a3f04fbdf04314b02a51a3b481c71a630333
 
   db:
-    github: crystal-lang/crystal-db
+    git: https://github.com/crystal-lang/crystal-db.git
     version: 0.9.0
 
   dotenv:
-    github: gdotdesign/cr-dotenv
+    git: https://github.com/gdotdesign/cr-dotenv.git
     version: 0.7.0
 
   generate:
-    github: anykeyh/generate.cr
-    commit: 27a59d663ded8ce39a361e3a88b8dd747f59ce42
+    git: https://github.com/anykeyh/generate.cr.git
+    version: 0.1.0+git.commit.27a59d663ded8ce39a361e3a88b8dd747f59ce42
 
   http_proxy:
-    github: mamantoha/http_proxy
-    commit: 1fb7bc325e479f3c0d6411b6973f4b69a0d66580
+    git: https://github.com/mamantoha/http_proxy.git
+    version: 0.4.0+git.commit.1fb7bc325e479f3c0d6411b6973f4b69a0d66580
 
   i18n:
-    github: TechMagister/i18n.cr
-    commit: 7e8168f2a0d567d3722a70b3a3a1028930e1c47e
+    git: https://github.com/TechMagister/i18n.cr.git
+    version: 0.3.1+git.commit.7e8168f2a0d567d3722a70b3a3a1028930e1c47e
 
   inflector:
-    github: phoffer/inflector.cr
+    git: https://github.com/phoffer/inflector.cr.git
     version: 0.1.8
 
   micrate:
-    github: amberframework/micrate
+    git: https://github.com/amberframework/micrate.git
     version: 0.8.0
 
   mosquito:
-    github: robacarp/mosquito
-    commit: b38a224fd9c16a11e5f0d7923b8ce950317a2292
+    git: https://github.com/robacarp/mosquito.git
+    version: 0.8.0+git.commit.b38a224fd9c16a11e5f0d7923b8ce950317a2292
 
   pg:
-    github: will/crystal-pg
-    version: 0.21.0
+    git: https://github.com/will/crystal-pg.git
+    version: 0.21.1+git.commit.cafe111fc28e366c219144d5f656c3718d7357dd
 
   pool:
-    github: watzon/pool
-    commit: d2d11eb565a7cf0c64c0e4a123890078ce9ae34f
+    git: https://github.com/watzon/pool.git
+    version: 0.3.0
 
   redis:
-    github: stefanwille/crystal-redis
+    git: https://github.com/stefanwille/crystal-redis.git
     version: 2.6.0
 
   sentry:
-    github: samueleaton/sentry
-    commit: ea453440a159219e894d6af42cf817e34647eb8d
+    git: https://github.com/watzon/sentry.git
+    version: 0.3.2+git.commit.c112bb53a1de3b3d90d712b9435b63901188bcc0
 
   tourmaline:
-    github: protoncr/tourmaline
-    commit: db1fd50d54e84eb93e5adb5f1394d99ba110a332
+    git: https://github.com/protoncr/tourmaline.git
+    version: 0.21.0+git.commit.287f4d25aba12306e0f70c8df1f5d452ea512d48
 

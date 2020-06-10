@@ -1,1 +1,7 @@
-Log.setup_from_env(level: ENV.fetch("LOG_LEVEL", "INFO"), sources: ENV.fetch("LOG_SOURCES", "*"))
+Log.setup do |c|
+  backend = Tourmaline::Logger::Backend
+
+  c.bind "mosquito", :info, backend
+  c.bind "mosquito.*", :warning, backend
+  c.bind "tourmaline.*", :info, backend
+end
